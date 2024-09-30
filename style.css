@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  height: 3000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  margin-top: 30px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  list-style-type: none;
+}
+
+.navbar-list-item .navbar-item-text {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  height: 100vh;
+}
+
+.container-left {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items:center; */
+}
+
+.container-left .text-top-jiko h1 {
+  justify-self: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+/* .text-top h1{
+  font-size: 110px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+} */
+.text-left h1 {
+  font-size: 110px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+.container-right .image-right img {
+  width: calc(720px * 80%);
+  height: calc(900px * 80%);
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Work Section */
+.work {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.work-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.work-card-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 25px;
+  justify-content: space-around;
+}
+
+.work-card {
+  border: 1px ;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  background-color: #292929;
+  text-align: center;
+  box-shadow: #656565;
+}
+
+.work-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.work-description h3 {
+  font-size: 1.5em;
+  margin: 12px 0;
+}
+
+.work-description p {
+  font-size: 1em;
+  color: #f1f1f1;
+}
+
+/* About Section */
+.about {
+  padding: 30px 30px;
+  background-color: #292929;
+  color: #ffffff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.isiabout {
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.6;
+  color: #d3d3d3;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 30px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.contactlis-titem {
+  padding: 0px 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #d3d3d3;
+}
+
+.contactlis-titem a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.contactlis-titem a:hover {
+  text-decoration: underline;
+}
